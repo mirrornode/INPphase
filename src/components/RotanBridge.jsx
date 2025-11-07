@@ -32,7 +32,8 @@ const RotanBridge = () => {
 
   const wsRef = useRef(null);
   const reconnectTimeoutRef = useRef(null);
-  const connectedRef = useRef(connected);
+  const connectedRef = useRef(false);
+  const intervalRef = useRef(null);
 
   // keep ref in sync so interval callbacks read latest value
   useEffect(() => {
