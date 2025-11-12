@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.altClickMovesCursor": false,
+    "atlascode.enableHttpsTunnel": true,
+    "atlascode.enableUIWS": true,
+    "atlascode.jira.explorer.fetchAllQueryResults": true,
+    "atlascode.jira.jqlList": [
+        
+    ]
+}
